@@ -12,12 +12,18 @@
 }
 #title {
     border: medium solid white;
+        border-top: 0px;
+        border-bottom: 0px;
+    font-family: 'Outfit', sans-serif;
     font-size: 72px;
     width: 500px;
     left: 50%;
     top: 50%;
     position: relative;
     transform: translate(-50%);
+}
+.blogpost {
+    font-family: 'Work Sans', sans-serif;
 }
 #divider-one {
     margin-top: 400px;
