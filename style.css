@@ -1,14 +1,26 @@
-.top-ribbon {
+.header {
     text-align: center;
     color: white;
-    padding: 100px;
     position: absolute;
+    padding: 100px;
     left: 0px;
     right: 0px;
     top: 0px;
     background-image: url(images/20190424_200245.jpg);
     background-position: center;
     background-size: cover;
+}
+#title {
+    border: medium solid white;
+    font-size: 72px;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%);
+}
+#divider-one {
+    margin-top: 400px;
 }
 body {
     background-color: #222222;
